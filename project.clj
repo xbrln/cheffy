@@ -1,7 +1,8 @@
 (defproject
  cheffy "0.1.0-SNAPSHOT"
  :description "Cheffy REST API"
- :url "https://api.learnreitit.com"
+ :url "https://github.com/xbrln/cheffy"
+ :min-lein-version "2.0.0"
  :dependencies [[clj-http "3.10.0"]
                 [com.github.seancorfield/next.jdbc "1.2.761"]
                 [environ "1.2.0"]
