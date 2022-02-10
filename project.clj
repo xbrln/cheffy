@@ -3,15 +3,16 @@
  :description "Cheffy REST API"
  :url "https://github.com/xbrln/cheffy"
  :min-lein-version "2.0.0"
- :dependencies [[clj-http "3.10.0"]
-                [com.github.seancorfield/next.jdbc "1.2.761"]
-                [environ "1.2.0"]
+ :dependencies [[org.clojure/clojure "1.10.1"]
+                [ring "1.8.1"]
                 [integrant "0.8.0"]
+                [environ "1.2.0"]
                 [metosin/reitit "0.5.5"]
-                [org.clojure/clojure "1.10.1"]
+                [com.github.seancorfield/next.jdbc "1.2.761"]
                 [org.postgresql/postgresql "42.3.1"]
+                [clj-http "3.10.0"]
                 [ovotech/ring-jwt "1.3.0"]
-                [ring "1.8.1"]]
+                [camel-snake-kebab "0.4.2"]]
  :profiles {:uberjar {:aot :all}
             :dev {:source-paths ["dev/src"]
                   :resource-paths ["dev/resources"]
